@@ -81,8 +81,8 @@ public class MainActivity extends AppCompatActivity {
                 //will open Dialer with number specified (Action_Dial doesn't require any permission.)
 
                 Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:14086935351"));
-                startActivity(intent);
+                intent.setData(Uri.parse("tel:1408684-8886");
+               startActivity(intent);
             }
         });
     }
